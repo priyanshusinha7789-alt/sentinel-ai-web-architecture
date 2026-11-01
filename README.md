@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SENTINEL AI 🛡️
 
-## Getting Started
+**Detect the signals. Understand the threat. Investigate the evidence.**
 
-First, run the development server:
+SENTINEL AI is an AI-powered email threat detection and digital forensics platform designed to help users investigate suspicious emails and understand potential phishing threats through explainable security analysis.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Email Threat Analysis:** Analyze email subjects, sender addresses, and message content.
+- **Phishing Indicators:** Identify suspicious language, deceptive sender patterns, and potentially malicious links.
+- **URL Investigation:** Extract and inspect URLs found in email content.
+- **Explainable Risk Assessment:** Present risk scores with supporting evidence and clear explanations.
+- **Evidence Explorer:** Review individual findings and understand why they matter.
+- **Investigation History:** Revisit and manage previous analyses.
+- **Forensic Reports:** Generate downloadable investigation reports.
+- **Demo Mode:** Explore the platform using synthetic email examples.
+- **Responsive Interface:** Designed for desktop, tablet, and mobile browsers.
+- **Customizable UI:** Support for themes, accent colors, and appearance preferences.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧰 Technology Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The final stack depends on the implementation. The planned web technologies include:
 
-## Learn More
+- React and Next.js
+- TypeScript
+- Tailwind CSS
+- Reusable UI components
+- Appropriate testing tools
 
-To learn more about Next.js, take a look at the following resources:
+## 🔐 Security and Privacy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+SENTINEL AI aims to provide transparent, privacy-conscious security analysis.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Email content is treated as untrusted input.
+- External threat intelligence results must not be fabricated.
+- API credentials must remain server-side.
+- Unavailable security checks must be clearly identified.
+- Risk scores are indicators, not guarantees that an email is safe or malicious.
 
-## Deploy on Vercel
+## 🛠️ Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Installation and development commands will be documented here after the application stack and dependencies have been finalized.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Create a local environment configuration using the provided `.env.example`, if required. Never commit API keys, passwords, access tokens, or other secrets.
+
+## 🧪 Testing
+
+Run the project's configured linting, type-checking, automated tests, and production build before deployment.
+
+## 🌐 Deployment
+
+The website is intended for deployment through Vercel or Netlify, with source code maintained in GitHub.
+
+The production URL will be added after deployment has been completed and verified.
+
+## ⚠️ Disclaimer
+
+SENTINEL AI is a security-assistance tool. Its findings depend on the available input, implemented analysis methods, and configured external services. It does not guarantee detection of every phishing attack.
+
+## 📄 License
+
+A license will be selected separately if the project is intended for public reuse.
